@@ -43,9 +43,9 @@
   <text x="60" y="210" class="m" font-size="13" fill="#90ABAA">// multi-service architectures · RAG pipelines · local LLM inference</text>
 
   <!-- Tag chips -->
-  <!-- MSCS @ Northeastern -->
+  <!-- MS CSE @ Northeastern -->
   <rect x="60" y="228" width="152" height="26" rx="8" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>
-  <text x="136" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">MSCS @ Northeastern</text>
+  <text x="136" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">MS CSE @ Northeastern</text>
 
   <!-- Seattle -->
   <rect x="220" y="228" width="66" height="26" rx="8" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>

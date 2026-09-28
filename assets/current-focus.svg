@@ -32,7 +32,7 @@
   <!-- Line 1: whoami -->
   <text x="28" y="68" class="m" font-size="13" fill="#8FA898" font-weight="bold">$</text>
   <text x="42" y="68" class="m" font-size="13" fill="#4A4540" font-weight="bold">whoami</text>
-  <text x="28" y="88" class="s" font-size="14.5" fill="#6A6460">MSCS @ Northeastern University, Seattle · Applied AI Researcher</text>
+  <text x="28" y="88" class="s" font-size="14.5" fill="#6A6460">MS CSE @ Northeastern University, Seattle · Applied AI Researcher</text>
 
   <!-- Line 2: current_focus -->
   <text x="28" y="116" class="m" font-size="13" fill="#8FA898" font-weight="bold">$</text>
