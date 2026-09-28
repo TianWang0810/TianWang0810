@@ -1,24 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 64" width="820" height="64">
-  <rect width="820" height="64" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="118" viewBox="0 0 1000 118">
+<defs>
+  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="3"/></filter>
+  <style>.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}.m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}</style>
+</defs>
 
-  <!-- dividers -->
-  <line x1="205" y1="12" x2="205" y2="52" stroke="#30363D" stroke-width="1"/>
-  <line x1="410" y1="12" x2="410" y2="52" stroke="#30363D" stroke-width="1"/>
-  <line x1="615" y1="12" x2="615" y2="52" stroke="#30363D" stroke-width="1"/>
+<!-- Background -->
+<rect width="1000" height="118" fill="#0a1424"/>
 
-  <!-- stat 1 -->
-  <text x="102" y="28" font-family="'Courier New',monospace" font-size="13" fill="#E6EDF3" text-anchor="middle" font-weight="bold">6-service distributed system</text>
-  <text x="102" y="48" font-family="'Courier New',monospace" font-size="11" fill="#8B949E" text-anchor="middle">built end-to-end from scratch</text>
+<!-- Full card border glow -->
+<rect x="6" y="6" width="988" height="106" rx="10" stroke="#00b7ff" stroke-opacity=".35" stroke-width="2" fill="none" filter="url(#glow)"/>
+<rect x="6" y="6" width="988" height="106" rx="10" fill="#0a1424" stroke="#1f6feb" stroke-opacity=".75"/>
 
-  <!-- stat 2 -->
-  <text x="307" y="28" font-family="'Courier New',monospace" font-size="13" fill="#E6EDF3" text-anchor="middle" font-weight="bold">RAG + hybrid retrieval</text>
-  <text x="307" y="48" font-family="'Courier New',monospace" font-size="11" fill="#8B949E" text-anchor="middle">BM25 · pgvector · RRF fusion</text>
+<!-- Card 1: 6 services -->
+<rect x="12" y="12" width="230" height="94" rx="8" fill="#0d1b30"/>
+<rect x="12" y="12" width="230" height="4" rx="2" fill="#58a6ff"/>
+<text x="127" y="66" class="s" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">6</text>
+<text x="127" y="92" class="m" font-size="11" fill="#8b949e" text-anchor="middle">services · distributed system</text>
 
-  <!-- stat 3 -->
-  <text x="512" y="28" font-family="'Courier New',monospace" font-size="13" fill="#E6EDF3" text-anchor="middle" font-weight="bold">MSCS @ Northeastern</text>
-  <text x="512" y="48" font-family="'Courier New',monospace" font-size="11" fill="#8B949E" text-anchor="middle">Seattle, WA  ·  2025 – 2027</text>
+<!-- Divider 1 -->
+<line x1="248" y1="22" x2="248" y2="96" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
 
-  <!-- stat 4 -->
-  <text x="717" y="28" font-family="'Courier New',monospace" font-size="13" fill="#58A6FF" text-anchor="middle" font-weight="bold">2026 Summer Intern</text>
-  <text x="717" y="48" font-family="'Courier New',monospace" font-size="11" fill="#8B949E" text-anchor="middle">SWE / MLE  ·  open now</text>
+<!-- Card 2: RAG -->
+<rect x="254" y="12" width="230" height="94" rx="8" fill="#0d1b30"/>
+<rect x="254" y="12" width="230" height="4" rx="2" fill="#39c5cf"/>
+<text x="369" y="66" class="s" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">RAG</text>
+<text x="369" y="92" class="m" font-size="11" fill="#8b949e" text-anchor="middle">hybrid BM25 + pgvector + RRF</text>
+
+<!-- Divider 2 -->
+<line x1="490" y1="22" x2="490" y2="96" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
+
+<!-- Card 3: MSCS -->
+<rect x="496" y="12" width="230" height="94" rx="8" fill="#0d1b30"/>
+<rect x="496" y="12" width="230" height="4" rx="2" fill="#a371f7"/>
+<text x="611" y="66" class="s" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">MSCS</text>
+<text x="611" y="92" class="m" font-size="11" fill="#8b949e" text-anchor="middle">Northeastern · Seattle</text>
+
+<!-- Divider 3 -->
+<line x1="732" y1="22" x2="732" y2="96" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
+
+<!-- Card 4: 2026 -->
+<rect x="738" y="12" width="254" height="94" rx="8" fill="#0d1b30"/>
+<rect x="738" y="12" width="254" height="4" rx="2" fill="#56d4bc"/>
+<text x="865" y="66" class="s" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">2026</text>
+<text x="865" y="92" class="m" font-size="11" fill="#8b949e" text-anchor="middle">summer intern · SWE / MLE</text>
 </svg>

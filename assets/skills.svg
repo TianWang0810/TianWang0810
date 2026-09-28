@@ -1,28 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 310" width="400" height="310">
-  <rect width="400" height="310" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
-  <circle cx="18" cy="18" r="5" fill="#FF5F56"/>
-  <circle cx="33" cy="18" r="5" fill="#FFBD2E"/>
-  <circle cx="48" cy="18" r="5" fill="#27C93F"/>
-  <text x="200" y="23" font-family="'Courier New',monospace" font-size="11" fill="#7D8590" text-anchor="middle">skills</text>
-  <line x1="0" y1="34" x2="400" y2="34" stroke="#30363D" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="310" viewBox="0 0 500 310">
+<defs>
+  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="3"/></filter>
+  <style>.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}.m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}</style>
+</defs>
 
-  <!-- Languages -->
-  <text x="20" y="62"  font-family="'Courier New',monospace" font-size="12" fill="#79C0FF" font-weight="bold">Languages</text>
-  <text x="20" y="80"  font-family="'Courier New',monospace" font-size="11" fill="#8B949E">  Python · Java · TypeScript · Go</text>
-  <text x="20" y="96"  font-family="'Courier New',monospace" font-size="11" fill="#8B949E">  Rust · Kotlin · SQL · C++</text>
+<!-- Background -->
+<rect width="500" height="310" fill="#0a1424"/>
 
-  <!-- AI / ML -->
-  <text x="20" y="124" font-family="'Courier New',monospace" font-size="12" fill="#79C0FF" font-weight="bold">AI / ML</text>
-  <text x="20" y="142" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">  LangChain · pgvector · FAISS</text>
-  <text x="20" y="158" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">  Ollama · OpenAI APIs · RAG</text>
+<!-- Card border glow -->
+<rect x="6" y="6" width="488" height="298" rx="10" stroke="#00b7ff" stroke-opacity=".35" stroke-width="2" fill="none" filter="url(#glow)"/>
+<rect x="6" y="6" width="488" height="298" rx="10" fill="#0a1424" stroke="#1f6feb" stroke-opacity=".75"/>
 
-  <!-- Backend / Systems -->
-  <text x="20" y="186" font-family="'Courier New',monospace" font-size="12" fill="#79C0FF" font-weight="bold">Backend / Systems</text>
-  <text x="20" y="204" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">  Spring Boot · Flask · FastAPI</text>
-  <text x="20" y="220" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">  PostgreSQL · Redis · Kafka · SQS</text>
+<!-- Title -->
+<text x="28" y="42" class="s" font-size="16" font-weight="700" fill="#e6edf3">Tech Stack &amp; Skills</text>
+<line x1="28" y1="52" x2="472" y2="52" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
 
-  <!-- Cloud / DevOps -->
-  <text x="20" y="248" font-family="'Courier New',monospace" font-size="12" fill="#79C0FF" font-weight="bold">Cloud / DevOps</text>
-  <text x="20" y="266" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">  Docker · AWS · GCP</text>
-  <text x="20" y="282" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">  Prometheus · Grafana · CI/CD</text>
+<!-- LANGUAGES -->
+<circle cx="28" cy="74" r="4" fill="#58a6ff"/>
+<text x="40" y="79" class="m" font-size="12" font-weight="600" fill="#58a6ff">LANGUAGES</text>
+<text x="28" y="98" class="m" font-size="12" fill="#c9d1d9">Python · Java · TypeScript · Go · Rust · Kotlin · SQL</text>
+
+<line x1="28" y1="112" x2="472" y2="112" stroke="#1f6feb" stroke-opacity="0.15" stroke-width="1"/>
+
+<!-- AI / ML -->
+<circle cx="28" cy="130" r="4" fill="#58a6ff"/>
+<text x="40" y="135" class="m" font-size="12" font-weight="600" fill="#58a6ff">AI / ML</text>
+<text x="28" y="154" class="m" font-size="12" fill="#c9d1d9">LangChain · pgvector · FAISS · Ollama · OpenAI APIs · RAG</text>
+
+<line x1="28" y1="168" x2="472" y2="168" stroke="#1f6feb" stroke-opacity="0.15" stroke-width="1"/>
+
+<!-- BACKEND / SYSTEMS -->
+<circle cx="28" cy="186" r="4" fill="#58a6ff"/>
+<text x="40" y="191" class="m" font-size="12" font-weight="600" fill="#58a6ff">BACKEND / SYSTEMS</text>
+<text x="28" y="210" class="m" font-size="11.5" fill="#c9d1d9">Spring Boot · Flask · FastAPI · PostgreSQL · Redis · Kafka · SQS</text>
+
+<line x1="28" y1="224" x2="472" y2="224" stroke="#1f6feb" stroke-opacity="0.15" stroke-width="1"/>
+
+<!-- CLOUD / DEVOPS -->
+<circle cx="28" cy="242" r="4" fill="#58a6ff"/>
+<text x="40" y="247" class="m" font-size="12" font-weight="600" fill="#58a6ff">CLOUD / DEVOPS</text>
+<text x="28" y="266" class="m" font-size="12" fill="#c9d1d9">Docker · AWS · GCP · Prometheus · Grafana · CI/CD</text>
+
+<!-- Bottom accent -->
+<line x1="28" y1="288" x2="472" y2="288" stroke="#1f6feb" stroke-opacity="0.2" stroke-width="1"/>
+<text x="472" y="300" class="m" font-size="10" fill="#3fb950" text-anchor="end">● always learning</text>
 </svg>

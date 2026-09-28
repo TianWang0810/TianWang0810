@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+<defs>
+  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="3"/></filter>
+  <filter id="halo" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="32"/></filter>
+  <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#58a6ff"/>
+    <stop offset="60%" stop-color="#a371f7"/>
+    <stop offset="100%" stop-color="#00b7ff"/>
+  </linearGradient>
+  <style>
+    .s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+    .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+  </style>
+</defs>
+
+<!-- Background -->
+<rect width="1000" height="300" fill="#0a1424"/>
+
+<!-- Dot pattern background -->
+<pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+  <circle cx="1" cy="1" r="1" fill="#1f6feb" fill-opacity="0.18"/>
+</pattern>
+<rect width="1000" height="300" fill="url(#dots)"/>
+
+<!-- Radial halo -->
+<ellipse cx="500" cy="150" rx="380" ry="160" fill="#1f6feb" fill-opacity="0.07" filter="url(#halo)"/>
+
+<!-- Decorative circuit lines left -->
+<g stroke="#1f6feb" stroke-opacity="0.22" stroke-width="1" fill="none">
+  <polyline points="0,80 60,80 80,60 140,60"/>
+  <polyline points="0,130 40,130 60,110 110,110"/>
+  <polyline points="0,200 30,200 50,180 100,180"/>
+  <circle cx="60" cy="80" r="3" fill="#1f6feb" fill-opacity="0.35"/>
+  <circle cx="40" cy="130" r="3" fill="#1f6feb" fill-opacity="0.35"/>
+  <circle cx="30" cy="200" r="3" fill="#1f6feb" fill-opacity="0.35"/>
+</g>
+
+<!-- Decorative circuit lines right -->
+<g stroke="#1f6feb" stroke-opacity="0.22" stroke-width="1" fill="none">
+  <polyline points="1000,80 940,80 920,60 860,60"/>
+  <polyline points="1000,130 960,130 940,110 890,110"/>
+  <polyline points="1000,200 970,200 950,180 900,180"/>
+  <circle cx="940" cy="80" r="3" fill="#1f6feb" fill-opacity="0.35"/>
+  <circle cx="960" cy="130" r="3" fill="#1f6feb" fill-opacity="0.35"/>
+  <circle cx="970" cy="200" r="3" fill="#1f6feb" fill-opacity="0.35"/>
+</g>
+
+<!-- Card border glow -->
+<rect x="6" y="6" width="988" height="288" rx="10" stroke="#00b7ff" stroke-opacity=".35" stroke-width="2" fill="none" filter="url(#glow)"/>
+<rect x="6" y="6" width="988" height="288" rx="10" fill="none" stroke="#1f6feb" stroke-opacity=".75"/>
+
+<!-- Top-right: open to internships indicator -->
+<circle cx="838" cy="28" r="5" fill="#3fb950"/>
+<circle cx="838" cy="28" r="5" fill="#3fb950" opacity="0.4" filter="url(#glow)"/>
+<text x="850" y="33" class="s" font-size="12" fill="#8b949e">open to 2026 Summer Internships</text>
+
+<!-- Main title -->
+<text x="60" y="96" class="s" font-size="42" font-weight="700" fill="#e6edf3">Hi, I'm Tian Wang.</text>
+
+<!-- Gradient subtitle -->
+<text x="60" y="142" class="s" font-size="22" font-weight="600" fill="url(#titleGrad)">Building AI Agents &amp; Distributed Backends</text>
+
+<!-- Comment line -->
+<text x="60" y="178" class="m" font-size="13" fill="#8b949e">// multi-service architectures · RAG pipelines · local LLM inference</text>
+
+<!-- Tags row -->
+<g transform="translate(60, 204)">
+  <!-- MSCS @ Northeastern -->
+  <rect x="0" y="0" width="168" height="26" rx="8" fill="#0d1b30" stroke="#1f6feb" stroke-opacity=".6"/>
+  <text x="84" y="17.32" class="m" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">MSCS @ Northeastern</text>
+
+  <!-- Seattle -->
+  <rect x="176" y="0" width="66" height="26" rx="8" fill="#0d1b30" stroke="#1f6feb" stroke-opacity=".6"/>
+  <text x="209" y="17.32" class="m" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">Seattle</text>
+
+  <!-- 2026 Intern -->
+  <rect x="250" y="0" width="90" height="26" rx="8" fill="#0d1b30" stroke="#1f6feb" stroke-opacity=".6"/>
+  <text x="295" y="17.32" class="m" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">2026 Intern</text>
+
+  <!-- AI Agents -->
+  <rect x="348" y="0" width="82" height="26" rx="8" fill="#0d1b30" stroke="#a371f7" stroke-opacity=".6"/>
+  <text x="389" y="17.32" class="m" font-size="11" font-weight="500" fill="#a371f7" text-anchor="middle">AI Agents</text>
+
+  <!-- Distributed Systems -->
+  <rect x="438" y="0" width="148" height="26" rx="8" fill="#0d1b30" stroke="#58a6ff" stroke-opacity=".6"/>
+  <text x="512" y="17.32" class="m" font-size="11" font-weight="500" fill="#58a6ff" text-anchor="middle">Distributed Systems</text>
+
+  <!-- LLM -->
+  <rect x="594" y="0" width="46" height="26" rx="8" fill="#0d1b30" stroke="#00b7ff" stroke-opacity=".6"/>
+  <text x="617" y="17.32" class="m" font-size="11" font-weight="500" fill="#00b7ff" text-anchor="middle">LLM</text>
+</g>
+
+<!-- Bottom decorative line -->
+<line x1="60" y1="258" x2="500" y2="258" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
+<text x="60" y="276" class="m" font-size="11" fill="#3fb950">● online</text>
+<text x="100" y="276" class="m" font-size="11" fill="#8b949e"> · Seattle, WA</text>
+</svg>
