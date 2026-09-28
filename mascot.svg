@@ -1,283 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="240" viewBox="0 0 220 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="210" viewBox="0 0 220 210">
   <style>
-    .dog { animation: float 3s ease-in-out infinite; }
+    .dog  { animation: float 3s ease-in-out infinite; }
     @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-7px)} }
     .eye-open { animation: blink-o 4s ease-in-out infinite; }
     .eye-shut { animation: blink-c 4s ease-in-out infinite; opacity:0; }
     @keyframes blink-o { 0%,90%,100%{opacity:1} 93%,97%{opacity:0} }
     @keyframes blink-c { 0%,90%,100%{opacity:0} 93%,97%{opacity:1} }
-    .note { animation: sway 2s ease-in-out infinite alternate; }
-    @keyframes sway { from{transform:translateY(0) rotate(-5deg)} to{transform:translateY(-6px) rotate(5deg)} }
+    .note { animation: sway 2.2s ease-in-out infinite alternate; transform-origin: 50% 50%; }
+    @keyframes sway { from{transform:translateY(0) rotate(-8deg)} to{transform:translateY(-7px) rotate(8deg)} }
   </style>
 
-  <!-- Music notes floating (outside dog group, no float animation) -->
-  <text class="note" x="170" y="30" font-size="16" fill="#8EA8BC" opacity="0.7" style="animation-delay:0s">♩</text>
-  <text class="note" x="185" y="80" font-size="16" fill="#8EA8BC" opacity="0.7" style="animation-delay:0.6s">♪</text>
-  <text class="note" x="175" y="130" font-size="16" fill="#8EA8BC" opacity="0.7" style="animation-delay:1.2s">♩</text>
+  <!-- Music notes (independent of dog float) -->
+  <text class="note" x="196" y="55"  font-size="15" fill="#8EA8BC" opacity="0.75" style="animation-delay:0s">♩</text>
+  <text class="note" x="200" y="105" font-size="15" fill="#ACA0BA" opacity="0.75" style="animation-delay:0.7s">♪</text>
+  <text class="note" x="196" y="155" font-size="15" fill="#8EA8BC" opacity="0.65" style="animation-delay:1.4s">♩</text>
 
-  <!-- Dog group with float animation -->
   <g class="dog">
-    <!-- Row 0: BOW at col 3, BOW_CTR at col 5 -->
-    <rect x="33" y="0" width="11" height="11" fill="#C09898"/>
-    <rect x="55" y="0" width="11" height="11" fill="#A87878"/>
+    <!-- ── BOW (centered on col 9, x=99) ── -->
+    <!-- Row 0 y=10: cols 7,9,11 -->
+    <rect x="77"  y="10" width="11" height="11" fill="#C09898"/>
+    <rect x="99"  y="10" width="11" height="11" fill="#A87878"/>
+    <rect x="121" y="10" width="11" height="11" fill="#C09898"/>
+    <!-- Row 1 y=21: cols 6-8=bow, 9=center, 10-12=bow -->
+    <rect x="66"  y="21" width="33" height="11" fill="#C09898"/>
+    <rect x="99"  y="21" width="11" height="11" fill="#A87878"/>
+    <rect x="110" y="21" width="33" height="11" fill="#C09898"/>
+    <!-- Row 2 y=32: same as row 0 -->
+    <rect x="77"  y="32" width="11" height="11" fill="#C09898"/>
+    <rect x="99"  y="32" width="11" height="11" fill="#A87878"/>
+    <rect x="121" y="32" width="11" height="11" fill="#C09898"/>
 
-    <!-- Row 1: B B B K B B at cols 2-7 -->
-    <rect x="22" y="11" width="11" height="11" fill="#C09898"/>
-    <rect x="33" y="11" width="11" height="11" fill="#C09898"/>
-    <rect x="44" y="11" width="11" height="11" fill="#C09898"/>
-    <rect x="55" y="11" width="11" height="11" fill="#A87878"/>
-    <rect x="66" y="11" width="11" height="11" fill="#C09898"/>
-    <rect x="77" y="11" width="11" height="11" fill="#C09898"/>
+    <!-- ── HEAD FUR ── -->
+    <!-- Row 3 y=43: cols 5-14 -->
+    <rect x="55"  y="43" width="110" height="11" fill="#F5F2ED"/>
+    <!-- Row 4 y=54: cols 4-15 -->
+    <rect x="44"  y="54" width="132" height="11" fill="#F5F2ED"/>
+    <!-- Row 5 y=65: cols 3-16 -->
+    <rect x="33"  y="65" width="154" height="11" fill="#F5F2ED"/>
+    <!-- Row 6 y=76: cols 2-17 -->
+    <rect x="22"  y="76" width="176" height="11" fill="#F5F2ED"/>
+    <!-- Row 7 y=87: cols 2-17 -->
+    <rect x="22"  y="87" width="176" height="11" fill="#F5F2ED"/>
+    <!-- Row 8 y=98: cols 2-17 (full fur, eyes overlay on top) -->
+    <rect x="22"  y="98" width="176" height="11" fill="#F5F2ED"/>
+    <!-- Row 9 y=109: cols 2-17 -->
+    <rect x="22"  y="109" width="176" height="11" fill="#F5F2ED"/>
+    <!-- Row 10 y=120: cols 2-17 -->
+    <rect x="22"  y="120" width="176" height="11" fill="#F5F2ED"/>
+    <!-- Row 11 y=131: muzzle (FUR + SHADOW cheeks) -->
+    <rect x="22"  y="131" width="33"  height="11" fill="#F5F2ED"/>
+    <rect x="55"  y="131" width="22"  height="11" fill="#DDD8D0"/>
+    <rect x="77"  y="131" width="66"  height="11" fill="#F5F2ED"/>
+    <rect x="143" y="131" width="22"  height="11" fill="#DDD8D0"/>
+    <rect x="165" y="131" width="33"  height="11" fill="#F5F2ED"/>
+    <!-- Row 12 y=142: nose (FUR + NOSE pixels) -->
+    <rect x="22"  y="142" width="77"  height="11" fill="#F5F2ED"/>
+    <rect x="99"  y="142" width="22"  height="11" fill="#4A3830"/>
+    <rect x="121" y="142" width="77"  height="11" fill="#F5F2ED"/>
+    <!-- Row 13 y=153: cols 2-17 -->
+    <rect x="22"  y="153" width="176" height="11" fill="#F5F2ED"/>
+    <!-- Row 14 y=164: cols 3-16 -->
+    <rect x="33"  y="164" width="154" height="11" fill="#F5F2ED"/>
+    <!-- Row 15 y=175: cols 4-15 -->
+    <rect x="44"  y="175" width="132" height="11" fill="#F5F2ED"/>
+    <!-- Row 16 y=186: cols 5-14 -->
+    <rect x="55"  y="186" width="110" height="11" fill="#F5F2ED"/>
 
-    <!-- Row 2: B at col 3, K at col 5 -->
-    <rect x="33" y="22" width="11" height="11" fill="#C09898"/>
-    <rect x="55" y="22" width="11" height="11" fill="#A87878"/>
-
-    <!-- Row 3: F at cols 3-12 -->
-    <rect x="33" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="33" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="33" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 4: F at cols 2-13 -->
-    <rect x="22" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="44" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="44" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 5: F at cols 1-14 -->
-    <rect x="11" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="55" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="55" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 6: F at cols 1-14 -->
-    <rect x="11" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="66" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="66" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 7: F at cols 0-15 -->
-    <rect x="0" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="11" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="77" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="165" y="77" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 8: F F F E . F F F F F F F E . F F  (cols 0-15) -->
-    <!-- Eyes open -->
+    <!-- ── EYES OPEN (col 6=x66, col 13=x143) ── -->
     <g class="eye-open">
-      <rect x="0" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="11" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="22" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="33" y="88" width="11" height="11" fill="#3C3530"/>
-      <!-- col 4 transparent -->
-      <rect x="55" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="66" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="77" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="88" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="99" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="110" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="121" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="132" y="88" width="11" height="11" fill="#3C3530"/>
-      <!-- col 13 transparent -->
-      <rect x="154" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="165" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <!-- Eye highlights (5x5 shine at top-left of each eye pixel) -->
-      <rect x="33" y="88" width="5" height="5" fill="#F9F7F4"/>
-      <rect x="132" y="88" width="5" height="5" fill="#F9F7F4"/>
+      <rect x="66"  y="98" width="11" height="11" fill="#3C3530"/>
+      <rect x="143" y="98" width="11" height="11" fill="#3C3530"/>
+      <!-- eye shine top-left corner -->
+      <rect x="66"  y="98" width="5"  height="4"  fill="#F9F7F4"/>
+      <rect x="143" y="98" width="5"  height="4"  fill="#F9F7F4"/>
     </g>
-    <!-- Eyes shut (blink) -->
+    <!-- ── EYES SHUT (horizontal line) ── -->
     <g class="eye-shut">
-      <rect x="0" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="11" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="22" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="33" y="88" width="11" height="5" fill="#3C3530"/>
-      <rect x="55" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="66" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="77" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="88" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="99" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="110" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="121" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="132" y="88" width="11" height="5" fill="#3C3530"/>
-      <rect x="154" y="88" width="11" height="11" fill="#F5F2ED"/>
-      <rect x="165" y="88" width="11" height="11" fill="#F5F2ED"/>
+      <rect x="66"  y="103" width="11" height="2" fill="#3C3530"/>
+      <rect x="143" y="103" width="11" height="2" fill="#3C3530"/>
     </g>
-
-    <!-- Row 9: F F F . . F F F F F F . . F F F -->
-    <rect x="0" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="11" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <!-- col 3,4 transparent -->
-    <rect x="55" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <!-- col 11,12 transparent -->
-    <rect x="143" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="99" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="165" y="99" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 10: F at cols 0-15 -->
-    <rect x="0" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="11" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="110" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="165" y="110" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 11: F F S S F F F F F F F S S F F F (cols 0-15) -->
-    <rect x="0" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="11" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="121" width="11" height="11" fill="#DDD8D0"/>
-    <rect x="33" y="121" width="11" height="11" fill="#DDD8D0"/>
-    <rect x="44" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="121" width="11" height="11" fill="#DDD8D0"/>
-    <rect x="132" y="121" width="11" height="11" fill="#DDD8D0"/>
-    <rect x="143" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="121" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="165" y="121" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 12: F F F F F N N F F N N F F F F F -->
-    <rect x="0" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="11" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="132" width="11" height="11" fill="#4A3830"/>
-    <rect x="66" y="132" width="11" height="11" fill="#4A3830"/>
-    <rect x="77" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="132" width="11" height="11" fill="#4A3830"/>
-    <rect x="110" y="132" width="11" height="11" fill="#4A3830"/>
-    <rect x="121" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="132" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="165" y="132" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 13: F at cols 0-15 -->
-    <rect x="0" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="11" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="143" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="165" y="143" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 14: F at cols 1-14 -->
-    <rect x="11" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="22" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="154" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="154" y="154" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 15: F at cols 2-13 -->
-    <rect x="22" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="33" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="165" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="143" y="165" width="11" height="11" fill="#F5F2ED"/>
-
-    <!-- Row 16: F at cols 3-12 -->
-    <rect x="33" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="44" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="55" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="66" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="77" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="88" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="99" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="110" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="121" y="176" width="11" height="11" fill="#F5F2ED"/>
-    <rect x="132" y="176" width="11" height="11" fill="#F5F2ED"/>
   </g>
 </svg>

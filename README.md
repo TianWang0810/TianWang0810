@@ -10,7 +10,7 @@
 
 <img src="assets/current-focus.svg" width="66.6%" alt="Current Focus"/><img src="mascot.svg" width="33.3%" alt="Maltese coding companion"/>
 
-<img src="assets/skills.svg" width="49.9%" alt="Tech Stack & Skills"/><img src="https://github-readme-stats.vercel.app/api?username=TianWang0810&show_icons=true&hide_border=true&bg_color=EDE8E3&title_color=8EA8BC&icon_color=8FA898&text_color=4A4540&border_radius=10&ring_color=C09898" width="49.9%" alt="GitHub Stats"/>
+<img src="assets/skills.svg" width="49.9%" alt="Tech Stack &amp; Skills"/><img src="assets/contact.svg" width="49.9%" alt="Contact"/>
 
 <img src="assets/metrics.svg" width="100%" alt="Metrics"/>
 
