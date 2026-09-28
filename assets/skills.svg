@@ -1,47 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="310" viewBox="0 0 500 310">
-<defs>
-  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="3"/></filter>
-  <style>.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}.m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}</style>
-</defs>
+  <defs>
+    <style>
+      .s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+      .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+    </style>
+  </defs>
 
-<!-- Background -->
-<rect width="500" height="310" fill="#0a1424"/>
+  <!-- Card background -->
+  <rect width="500" height="310" fill="#EDE8E3"/>
+  <rect x="6" y="6" width="488" height="298" rx="10" fill="none" stroke="#C4BAB2" stroke-width="1.5"/>
 
-<!-- Card border glow -->
-<rect x="6" y="6" width="488" height="298" rx="10" stroke="#00b7ff" stroke-opacity=".35" stroke-width="2" fill="none" filter="url(#glow)"/>
-<rect x="6" y="6" width="488" height="298" rx="10" fill="#0a1424" stroke="#1f6feb" stroke-opacity=".75"/>
+  <!-- Title -->
+  <text x="28" y="42" class="s" font-size="16" font-weight="bold" fill="#4A4540">Tech Stack &amp; Skills</text>
+  <line x1="6" y1="52" x2="494" y2="52" stroke="#C4BAB2" stroke-width="1"/>
 
-<!-- Title -->
-<text x="28" y="42" class="s" font-size="16" font-weight="700" fill="#e6edf3">Tech Stack &amp; Skills</text>
-<line x1="28" y1="52" x2="472" y2="52" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- LANGUAGES section: dot/label at y=74, items at y=93 -->
+  <circle cx="28" cy="74" r="4" fill="#8EA8BC"/>
+  <text x="42" y="79" class="m" font-size="11" font-weight="bold" fill="#8EA8BC">LANGUAGES</text>
+  <text x="28" y="97" class="m" font-size="11.5" fill="#6A6460">Python · Java · TypeScript · Go · Rust · Kotlin · SQL</text>
+  <line x1="6" y1="108" x2="494" y2="108" stroke="#C4BAB2" stroke-width="0.8"/>
 
-<!-- LANGUAGES -->
-<circle cx="28" cy="74" r="4" fill="#58a6ff"/>
-<text x="40" y="79" class="m" font-size="12" font-weight="600" fill="#58a6ff">LANGUAGES</text>
-<text x="28" y="98" class="m" font-size="12" fill="#c9d1d9">Python · Java · TypeScript · Go · Rust · Kotlin · SQL</text>
+  <!-- AI / ML section: dot/label at y=124, items at y=143 -->
+  <circle cx="28" cy="124" r="4" fill="#8EA8BC"/>
+  <text x="42" y="129" class="m" font-size="11" font-weight="bold" fill="#8EA8BC">AI / ML</text>
+  <text x="28" y="147" class="m" font-size="11.5" fill="#6A6460">LangChain · RAG · pgvector · Ollama · PyTorch · HuggingFace</text>
+  <line x1="6" y1="158" x2="494" y2="158" stroke="#C4BAB2" stroke-width="0.8"/>
 
-<line x1="28" y1="112" x2="472" y2="112" stroke="#1f6feb" stroke-opacity="0.15" stroke-width="1"/>
+  <!-- BACKEND / SYSTEMS section: dot/label at y=174, items at y=193 -->
+  <circle cx="28" cy="174" r="4" fill="#8EA8BC"/>
+  <text x="42" y="179" class="m" font-size="11" font-weight="bold" fill="#8EA8BC">BACKEND / SYSTEMS</text>
+  <text x="28" y="197" class="m" font-size="11.5" fill="#6A6460">Flask · FastAPI · PostgreSQL · Redis · Docker · Kafka</text>
+  <text x="28" y="212" class="m" font-size="11.5" fill="#6A6460">gRPC · REST · Microservices · Event-driven Architecture</text>
+  <line x1="6" y1="224" x2="494" y2="224" stroke="#C4BAB2" stroke-width="0.8"/>
 
-<!-- AI / ML -->
-<circle cx="28" cy="130" r="4" fill="#58a6ff"/>
-<text x="40" y="135" class="m" font-size="12" font-weight="600" fill="#58a6ff">AI / ML</text>
-<text x="28" y="154" class="m" font-size="12" fill="#c9d1d9">LangChain · pgvector · FAISS · Ollama · OpenAI APIs · RAG</text>
+  <!-- CLOUD / DEVOPS section: dot/label at y=236, items at y=255 -->
+  <circle cx="28" cy="236" r="4" fill="#8EA8BC"/>
+  <text x="42" y="241" class="m" font-size="11" font-weight="bold" fill="#8EA8BC">CLOUD / DEVOPS</text>
+  <text x="28" y="259" class="m" font-size="11.5" fill="#6A6460">AWS · GCP · Docker Compose · GitHub Actions · Linux</text>
 
-<line x1="28" y1="168" x2="472" y2="168" stroke="#1f6feb" stroke-opacity="0.15" stroke-width="1"/>
-
-<!-- BACKEND / SYSTEMS -->
-<circle cx="28" cy="186" r="4" fill="#58a6ff"/>
-<text x="40" y="191" class="m" font-size="12" font-weight="600" fill="#58a6ff">BACKEND / SYSTEMS</text>
-<text x="28" y="210" class="m" font-size="11.5" fill="#c9d1d9">Spring Boot · Flask · FastAPI · PostgreSQL · Redis · Kafka · SQS</text>
-
-<line x1="28" y1="224" x2="472" y2="224" stroke="#1f6feb" stroke-opacity="0.15" stroke-width="1"/>
-
-<!-- CLOUD / DEVOPS -->
-<circle cx="28" cy="242" r="4" fill="#58a6ff"/>
-<text x="40" y="247" class="m" font-size="12" font-weight="600" fill="#58a6ff">CLOUD / DEVOPS</text>
-<text x="28" y="266" class="m" font-size="12" fill="#c9d1d9">Docker · AWS · GCP · Prometheus · Grafana · CI/CD</text>
-
-<!-- Bottom accent -->
-<line x1="28" y1="288" x2="472" y2="288" stroke="#1f6feb" stroke-opacity="0.2" stroke-width="1"/>
-<text x="472" y="300" class="m" font-size="10" fill="#3fb950" text-anchor="end">● always learning</text>
+  <!-- Bottom always learning -->
+  <text x="472" y="298" class="m" font-size="10" fill="#8FA898" text-anchor="end">● always learning</text>
 </svg>

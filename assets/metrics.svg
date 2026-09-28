@@ -1,46 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="118" viewBox="0 0 1000 118">
-<defs>
-  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="3"/></filter>
-  <style>.s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}.m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}</style>
-</defs>
+  <defs>
+    <style>
+      .s{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+      .m{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+    </style>
+  </defs>
 
-<!-- Background -->
-<rect width="1000" height="118" fill="#0a1424"/>
+  <!-- Outer card -->
+  <rect width="1000" height="118" fill="#EDE8E3"/>
+  <rect x="6" y="6" width="988" height="106" rx="10" fill="none" stroke="#C4BAB2" stroke-width="1.5"/>
 
-<!-- Full card border glow -->
-<rect x="6" y="6" width="988" height="106" rx="10" stroke="#00b7ff" stroke-opacity=".35" stroke-width="2" fill="none" filter="url(#glow)"/>
-<rect x="6" y="6" width="988" height="106" rx="10" fill="#0a1424" stroke="#1f6feb" stroke-opacity=".75"/>
+  <!-- Card 1: dusty blue — 6 services -->
+  <rect x="12" y="12" width="236" height="94" rx="8" fill="#E8E3DD" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="12" y="12" width="236" height="4" rx="2" fill="#8EA8BC"/>
+  <text x="130" y="58" class="s" font-size="30" font-weight="bold" fill="#4A4540" text-anchor="middle">6</text>
+  <text x="130" y="88" class="m" font-size="11" fill="#7A7470" text-anchor="middle">services · distributed system</text>
 
-<!-- Card 1: 6 services -->
-<rect x="12" y="12" width="230" height="94" rx="8" fill="#0d1b30"/>
-<rect x="12" y="12" width="230" height="4" rx="2" fill="#58a6ff"/>
-<text x="127" y="66" class="s" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">6</text>
-<text x="127" y="92" class="m" font-size="11" fill="#8b949e" text-anchor="middle">services · distributed system</text>
+  <!-- Card 2: dusty teal — RAG -->
+  <rect x="258" y="12" width="236" height="94" rx="8" fill="#E8E3DD" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="258" y="12" width="236" height="4" rx="2" fill="#90ABAA"/>
+  <text x="376" y="58" class="s" font-size="30" font-weight="bold" fill="#4A4540" text-anchor="middle">RAG</text>
+  <text x="376" y="88" class="m" font-size="11" fill="#7A7470" text-anchor="middle">hybrid BM25 + pgvector + RRF</text>
 
-<!-- Divider 1 -->
-<line x1="248" y1="22" x2="248" y2="96" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- Card 3: lavender — MSCS -->
+  <rect x="504" y="12" width="236" height="94" rx="8" fill="#E8E3DD" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="504" y="12" width="236" height="4" rx="2" fill="#ACA0BA"/>
+  <text x="622" y="58" class="s" font-size="30" font-weight="bold" fill="#4A4540" text-anchor="middle">MSCS</text>
+  <text x="622" y="88" class="m" font-size="11" fill="#7A7470" text-anchor="middle">Northeastern · Seattle</text>
 
-<!-- Card 2: RAG -->
-<rect x="254" y="12" width="230" height="94" rx="8" fill="#0d1b30"/>
-<rect x="254" y="12" width="230" height="4" rx="2" fill="#39c5cf"/>
-<text x="369" y="66" class="s" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">RAG</text>
-<text x="369" y="92" class="m" font-size="11" fill="#8b949e" text-anchor="middle">hybrid BM25 + pgvector + RRF</text>
-
-<!-- Divider 2 -->
-<line x1="490" y1="22" x2="490" y2="96" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
-
-<!-- Card 3: MSCS -->
-<rect x="496" y="12" width="230" height="94" rx="8" fill="#0d1b30"/>
-<rect x="496" y="12" width="230" height="4" rx="2" fill="#a371f7"/>
-<text x="611" y="66" class="s" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">MSCS</text>
-<text x="611" y="92" class="m" font-size="11" fill="#8b949e" text-anchor="middle">Northeastern · Seattle</text>
-
-<!-- Divider 3 -->
-<line x1="732" y1="22" x2="732" y2="96" stroke="#1f6feb" stroke-opacity="0.3" stroke-width="1"/>
-
-<!-- Card 4: 2026 -->
-<rect x="738" y="12" width="254" height="94" rx="8" fill="#0d1b30"/>
-<rect x="738" y="12" width="254" height="4" rx="2" fill="#56d4bc"/>
-<text x="865" y="66" class="s" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">2026</text>
-<text x="865" y="92" class="m" font-size="11" fill="#8b949e" text-anchor="middle">summer intern · SWE / MLE</text>
+  <!-- Card 4: sage — 2026 -->
+  <rect x="750" y="12" width="236" height="94" rx="8" fill="#E8E3DD" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="750" y="12" width="236" height="4" rx="2" fill="#8FA898"/>
+  <text x="868" y="58" class="s" font-size="30" font-weight="bold" fill="#4A4540" text-anchor="middle">2026</text>
+  <text x="868" y="88" class="m" font-size="11" fill="#7A7470" text-anchor="middle">summer intern · SWE / MLE</text>
 </svg>
