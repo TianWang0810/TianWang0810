@@ -13,13 +13,13 @@
   </defs>
 
   <!-- Card background -->
-  <rect width="1000" height="280" fill="#EDE8E3"/>
-  <rect x="6" y="6" width="988" height="268" rx="10" fill="none" stroke="#C4BAB2" stroke-width="1.5"/>
+  <rect width="1000" height="280" fill="#F5F1EE"/>
+  <rect x="6" y="6" width="988" height="268" rx="10" fill="none" stroke="#D0C8C0" stroke-width="1.5"/>
 
   <!-- Top bar -->
-  <rect x="6" y="6" width="988" height="30" rx="10" fill="#E2DDD7"/>
-  <rect x="6" y="30" width="988" height="6" fill="#E2DDD7"/>
-  <line x1="6" y1="36" x2="994" y2="36" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="6" y="6" width="988" height="30" rx="10" fill="#EBE7E3"/>
+  <rect x="6" y="30" width="988" height="6" fill="#EBE7E3"/>
+  <line x1="6" y1="36" x2="994" y2="36" stroke="#D0C8C0" stroke-width="1"/>
 
   <!-- Window dots -->
   <circle cx="28" cy="21" r="5" fill="#C49090"/>
@@ -28,7 +28,7 @@
 
   <!-- Status indicator top-right -->
   <circle cx="802" cy="21" r="5" fill="#8FA898"/>
-  <text x="814" y="26" class="m" font-size="12" fill="#7A7470">open to 2026 Summer Internships</text>
+  <text x="982" y="26" class="m" font-size="12" fill="#7A7470" text-anchor="end">open to 2027 Summer Internships</text>
 
   <!-- Main title -->
   <text x="60" y="90" class="s" font-size="48" font-weight="700" fill="#4A4540">Hi, I'm Tian Wang.</text>
@@ -44,26 +44,26 @@
 
   <!-- Tag chips -->
   <!-- MSCS @ Northeastern -->
-  <rect x="60" y="228" width="152" height="26" rx="8" fill="#E2DDD7" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="60" y="228" width="152" height="26" rx="8" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>
   <text x="136" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">MSCS @ Northeastern</text>
 
   <!-- Seattle -->
-  <rect x="220" y="228" width="66" height="26" rx="8" fill="#E2DDD7" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="220" y="228" width="66" height="26" rx="8" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>
   <text x="253" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">Seattle</text>
 
-  <!-- 2026 Intern -->
-  <rect x="294" y="228" width="90" height="26" rx="8" fill="#E2DDD7" stroke="#C4BAB2" stroke-width="1"/>
-  <text x="339" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">2026 Intern</text>
+  <!-- 2027 Intern -->
+  <rect x="294" y="228" width="90" height="26" rx="8" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>
+  <text x="339" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">2027 Intern</text>
 
   <!-- AI Agents -->
-  <rect x="392" y="228" width="82" height="26" rx="8" fill="#E2DDD7" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="392" y="228" width="82" height="26" rx="8" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>
   <text x="433" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">AI Agents</text>
 
   <!-- Distributed Systems -->
-  <rect x="482" y="228" width="148" height="26" rx="8" fill="#E2DDD7" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="482" y="228" width="148" height="26" rx="8" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>
   <text x="556" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">Distributed Systems</text>
 
   <!-- LLM -->
-  <rect x="638" y="228" width="46" height="26" rx="8" fill="#E2DDD7" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="638" y="228" width="46" height="26" rx="8" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>
   <text x="661" y="245" class="s" font-size="13" font-weight="500" fill="#5A5550" text-anchor="middle">LLM</text>
 </svg>

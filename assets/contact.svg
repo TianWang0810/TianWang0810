@@ -12,43 +12,43 @@
   </style>
 </defs>
 
-<rect width="500" height="310" fill="#EDE8E3"/>
-<rect x="6" y="6" width="488" height="298" rx="10" fill="none" stroke="#C4BAB2" stroke-width="1.5"/>
+<rect width="500" height="310" fill="#F5F1EE"/>
+<rect x="6" y="6" width="488" height="298" rx="10" fill="none" stroke="#D0C8C0" stroke-width="1.5"/>
 
 <!-- Title -->
 <text x="28" y="42" class="s" font-size="16" font-weight="700" fill="#4A4540">Get in Touch</text>
-<line x1="28" y1="52" x2="472" y2="52" stroke="#C4BAB2" stroke-opacity="0.6" stroke-width="1"/>
+<line x1="28" y1="52" x2="472" y2="52" stroke="#D0C8C0" stroke-opacity="0.6" stroke-width="1"/>
 
 <!-- Email -->
 <circle cx="28" cy="82" r="4" fill="#8EA8BC"/>
 <text x="42" y="78" class="m" font-size="10.5" font-weight="600" fill="#8EA8BC">EMAIL</text>
 <text x="28" y="97" class="s" font-size="14" fill="#4A4540">wtian0262@gmail.com</text>
 
-<line x1="28" y1="112" x2="472" y2="112" stroke="#C4BAB2" stroke-opacity="0.3" stroke-width="1"/>
+<line x1="28" y1="112" x2="472" y2="112" stroke="#D0C8C0" stroke-opacity="0.3" stroke-width="1"/>
 
 <!-- Location -->
 <circle cx="28" cy="132" r="4" fill="#90ABAA"/>
 <text x="42" y="128" class="m" font-size="10.5" font-weight="600" fill="#90ABAA">LOCATION</text>
 <text x="28" y="147" class="s" font-size="14" fill="#4A4540">Seattle, WA</text>
 
-<line x1="28" y1="162" x2="472" y2="162" stroke="#C4BAB2" stroke-opacity="0.3" stroke-width="1"/>
+<line x1="28" y1="162" x2="472" y2="162" stroke="#D0C8C0" stroke-opacity="0.3" stroke-width="1"/>
 
 <!-- GitHub -->
 <circle cx="28" cy="182" r="4" fill="#ACA0BA"/>
 <text x="42" y="178" class="m" font-size="10.5" font-weight="600" fill="#ACA0BA">GITHUB</text>
 <text x="28" y="197" class="s" font-size="14" fill="#4A4540">github.com/TianWang0810</text>
 
-<line x1="28" y1="212" x2="472" y2="212" stroke="#C4BAB2" stroke-opacity="0.3" stroke-width="1"/>
+<line x1="28" y1="212" x2="472" y2="212" stroke="#D0C8C0" stroke-opacity="0.3" stroke-width="1"/>
 
 <!-- LinkedIn -->
 <circle cx="28" cy="232" r="4" fill="#8FA898"/>
 <text x="42" y="228" class="m" font-size="10.5" font-weight="600" fill="#8FA898">LINKEDIN</text>
 <text x="28" y="247" class="s" font-size="14" fill="#4A4540">linkedin.com/in/tianwang874330382</text>
 
-<line x1="28" y1="262" x2="472" y2="262" stroke="#C4BAB2" stroke-opacity="0.3" stroke-width="1"/>
+<line x1="28" y1="262" x2="472" y2="262" stroke="#D0C8C0" stroke-opacity="0.3" stroke-width="1"/>
 
 <!-- Status chip -->
-<rect x="28" y="276" width="290" height="24" rx="12" fill="#E2DDD7" stroke="#C4BAB2" stroke-width="1"/>
+<rect x="28" y="276" width="290" height="24" rx="12" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1"/>
 <circle cx="44" cy="288" r="4" fill="#8FA898"/>
-<text x="54" y="292" class="s" font-size="13" fill="#4A4540">Open to 2026 Summer Internships</text>
+<text x="54" y="292" class="s" font-size="13" fill="#4A4540">Open to 2027 Summer Internships</text>
 </svg>

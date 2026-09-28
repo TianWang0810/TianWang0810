@@ -13,13 +13,13 @@
   </defs>
 
   <!-- Card background -->
-  <rect width="680" height="360" fill="#EDE8E3"/>
-  <rect x="6" y="6" width="668" height="348" rx="10" fill="none" stroke="#C4BAB2" stroke-width="1.5"/>
+  <rect width="680" height="360" fill="#F5F1EE"/>
+  <rect x="6" y="6" width="668" height="348" rx="10" fill="none" stroke="#D0C8C0" stroke-width="1.5"/>
 
   <!-- Title bar -->
-  <rect x="6" y="6" width="668" height="30" rx="10" fill="#E2DDD7"/>
-  <rect x="6" y="30" width="668" height="6" fill="#E2DDD7"/>
-  <line x1="6" y1="36" x2="674" y2="36" stroke="#C4BAB2" stroke-width="1"/>
+  <rect x="6" y="6" width="668" height="30" rx="10" fill="#EBE7E3"/>
+  <rect x="6" y="30" width="668" height="6" fill="#EBE7E3"/>
+  <line x1="6" y1="36" x2="674" y2="36" stroke="#D0C8C0" stroke-width="1"/>
 
   <!-- Window dots -->
   <circle cx="28" cy="21" r="5" fill="#C49090"/>
@@ -51,7 +51,7 @@
   <text x="42" y="196" class="s" font-size="14.5" fill="#6A6460">Learning Rust and high-performance systems</text>
 
   <text x="28" y="216" class="m" font-size="12" fill="#8EA8BC">&gt;</text>
-  <text x="42" y="216" class="s" font-size="14.5" fill="#6A6460">Preparing for 2026 Summer Internships</text>
+  <text x="42" y="216" class="s" font-size="14.5" fill="#6A6460">Preparing for 2027 Summer Internships</text>
 
   <!-- Line 3: stack -->
   <text x="28" y="248" class="m" font-size="13" fill="#8FA898" font-weight="bold">$</text>

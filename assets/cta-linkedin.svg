@@ -11,6 +11,6 @@
       .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
     </style>
   </defs>
-  <rect x="1" y="1" width="138" height="32" rx="17" fill="#E2DDD7" stroke="#C4BAB2" stroke-width="1.5"/>
+  <rect x="1" y="1" width="138" height="32" rx="17" fill="#EBE7E3" stroke="#D0C8C0" stroke-width="1.5"/>
   <text x="70" y="22" class="s" font-size="13" fill="#5A5550" text-anchor="middle">  LinkedIn ↗</text>
 </svg>
