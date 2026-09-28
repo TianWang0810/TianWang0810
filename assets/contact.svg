@@ -16,34 +16,34 @@
 <rect x="6" y="6" width="488" height="298" rx="10" fill="none" stroke="#D0C8C0" stroke-width="1.5"/>
 
 <!-- Title -->
-<text x="28" y="42" class="s" font-size="16" font-weight="700" fill="#4A4540">Get in Touch</text>
+<text x="28" y="42" class="s" font-size="18" font-weight="700" fill="#4A4540">Get in Touch</text>
 <line x1="28" y1="52" x2="472" y2="52" stroke="#D0C8C0" stroke-opacity="0.6" stroke-width="1"/>
 
 <!-- Email -->
 <circle cx="28" cy="82" r="4" fill="#8EA8BC"/>
-<text x="42" y="78" class="m" font-size="10.5" font-weight="600" fill="#8EA8BC">EMAIL</text>
-<text x="28" y="97" class="s" font-size="14" fill="#4A4540">wtian0262@gmail.com</text>
+<text x="42" y="78" class="m" font-size="12" font-weight="600" fill="#8EA8BC">EMAIL</text>
+<text x="28" y="97" class="s" font-size="16" fill="#4A4540">wtian0262@gmail.com</text>
 
 <line x1="28" y1="112" x2="472" y2="112" stroke="#D0C8C0" stroke-opacity="0.3" stroke-width="1"/>
 
 <!-- Location -->
 <circle cx="28" cy="132" r="4" fill="#90ABAA"/>
-<text x="42" y="128" class="m" font-size="10.5" font-weight="600" fill="#90ABAA">LOCATION</text>
-<text x="28" y="147" class="s" font-size="14" fill="#4A4540">Seattle, WA</text>
+<text x="42" y="128" class="m" font-size="12" font-weight="600" fill="#90ABAA">LOCATION</text>
+<text x="28" y="147" class="s" font-size="16" fill="#4A4540">Seattle, WA</text>
 
 <line x1="28" y1="162" x2="472" y2="162" stroke="#D0C8C0" stroke-opacity="0.3" stroke-width="1"/>
 
 <!-- GitHub -->
 <circle cx="28" cy="182" r="4" fill="#ACA0BA"/>
-<text x="42" y="178" class="m" font-size="10.5" font-weight="600" fill="#ACA0BA">GITHUB</text>
-<text x="28" y="197" class="s" font-size="14" fill="#4A4540">github.com/TianWang0810</text>
+<text x="42" y="178" class="m" font-size="12" font-weight="600" fill="#ACA0BA">GITHUB</text>
+<text x="28" y="197" class="s" font-size="16" fill="#4A4540">github.com/TianWang0810</text>
 
 <line x1="28" y1="212" x2="472" y2="212" stroke="#D0C8C0" stroke-opacity="0.3" stroke-width="1"/>
 
 <!-- LinkedIn -->
 <circle cx="28" cy="232" r="4" fill="#8FA898"/>
-<text x="42" y="228" class="m" font-size="10.5" font-weight="600" fill="#8FA898">LINKEDIN</text>
-<text x="28" y="247" class="s" font-size="14" fill="#4A4540">linkedin.com/in/tianwang874330382</text>
+<text x="42" y="228" class="m" font-size="12" font-weight="600" fill="#8FA898">LINKEDIN</text>
+<text x="28" y="247" class="s" font-size="16" fill="#4A4540">linkedin.com/in/tianwang874330382</text>
 
 <line x1="28" y1="262" x2="472" y2="262" stroke="#D0C8C0" stroke-opacity="0.3" stroke-width="1"/>
 

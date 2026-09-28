@@ -30,36 +30,36 @@
   <text x="340" y="26" class="m" font-size="12" fill="#7A7470" text-anchor="middle">tianwang@seattle: ~ — zsh</text>
 
   <!-- Line 1: whoami -->
-  <text x="28" y="68" class="m" font-size="13" fill="#8FA898" font-weight="bold">$</text>
-  <text x="42" y="68" class="m" font-size="13" fill="#4A4540" font-weight="bold">whoami</text>
-  <text x="28" y="88" class="s" font-size="14.5" fill="#6A6460">MS CSE @ Northeastern University, Seattle · Applied AI Researcher</text>
+  <text x="28" y="68" class="m" font-size="15" fill="#8FA898" font-weight="bold">$</text>
+  <text x="42" y="68" class="m" font-size="15" fill="#4A4540" font-weight="bold">whoami</text>
+  <text x="28" y="88" class="s" font-size="15" fill="#6A6460">MS CSE @ Northeastern University, Seattle · Applied AI Researcher</text>
 
   <!-- Line 2: current_focus -->
-  <text x="28" y="116" class="m" font-size="13" fill="#8FA898" font-weight="bold">$</text>
-  <text x="42" y="116" class="m" font-size="13" fill="#4A4540" font-weight="bold">current_focus</text>
+  <text x="28" y="116" class="m" font-size="15" fill="#8FA898" font-weight="bold">$</text>
+  <text x="42" y="116" class="m" font-size="15" fill="#4A4540" font-weight="bold">current_focus</text>
 
-  <text x="28" y="136" class="m" font-size="12" fill="#8EA8BC">&gt;</text>
-  <text x="42" y="136" class="s" font-size="14.5" fill="#6A6460">Building LLM agents and RAG pipelines end-to-end</text>
+  <text x="28" y="136" class="m" font-size="14" fill="#8EA8BC">&gt;</text>
+  <text x="42" y="136" class="s" font-size="16" fill="#6A6460">Building LLM agents and RAG pipelines end-to-end</text>
 
-  <text x="28" y="156" class="m" font-size="12" fill="#8EA8BC">&gt;</text>
-  <text x="42" y="156" class="s" font-size="14.5" fill="#6A6460">Designing distributed event-driven backends</text>
+  <text x="28" y="156" class="m" font-size="14" fill="#8EA8BC">&gt;</text>
+  <text x="42" y="156" class="s" font-size="16" fill="#6A6460">Designing distributed event-driven backends</text>
 
-  <text x="28" y="176" class="m" font-size="12" fill="#8EA8BC">&gt;</text>
-  <text x="42" y="176" class="s" font-size="14.5" fill="#6A6460">Working on AI infrastructure and multi-service orchestration</text>
+  <text x="28" y="176" class="m" font-size="14" fill="#8EA8BC">&gt;</text>
+  <text x="42" y="176" class="s" font-size="16" fill="#6A6460">Working on AI infrastructure and multi-service orchestration</text>
 
-  <text x="28" y="196" class="m" font-size="12" fill="#8EA8BC">&gt;</text>
-  <text x="42" y="196" class="s" font-size="14.5" fill="#6A6460">Learning Rust and high-performance systems</text>
+  <text x="28" y="196" class="m" font-size="14" fill="#8EA8BC">&gt;</text>
+  <text x="42" y="196" class="s" font-size="16" fill="#6A6460">Learning Rust and high-performance systems</text>
 
-  <text x="28" y="216" class="m" font-size="12" fill="#8EA8BC">&gt;</text>
-  <text x="42" y="216" class="s" font-size="14.5" fill="#6A6460">Preparing for 2027 Summer Internships</text>
+  <text x="28" y="216" class="m" font-size="14" fill="#8EA8BC">&gt;</text>
+  <text x="42" y="216" class="s" font-size="16" fill="#6A6460">Preparing for 2027 Summer Internships</text>
 
   <!-- Line 3: stack -->
-  <text x="28" y="248" class="m" font-size="13" fill="#8FA898" font-weight="bold">$</text>
-  <text x="42" y="248" class="m" font-size="13" fill="#4A4540" font-weight="bold">stack</text>
-  <text x="28" y="268" class="s" font-size="14.5" fill="#6A6460">Python / Java / TypeScript / Go / Rust / Kotlin / AWS</text>
+  <text x="28" y="248" class="m" font-size="15" fill="#8FA898" font-weight="bold">$</text>
+  <text x="42" y="248" class="m" font-size="15" fill="#4A4540" font-weight="bold">stack</text>
+  <text x="28" y="268" class="s" font-size="16" fill="#6A6460">Python / Java / TypeScript / Go / Rust / Kotlin / AWS</text>
 
   <!-- Final prompt line with blinking cursor -->
-  <text x="28" y="308" class="m" font-size="13" fill="#8FA898" font-weight="bold">$</text>
+  <text x="28" y="308" class="m" font-size="15" fill="#8FA898" font-weight="bold">$</text>
   <rect x="46" y="295" width="8" height="15" fill="#4A4540">
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
