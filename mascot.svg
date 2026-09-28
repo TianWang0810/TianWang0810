@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <style>
+    .dog { animation: float 3s ease-in-out infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-8px); }
+    }
+    .eye { animation: blink 4s ease-in-out infinite; }
+    @keyframes blink {
+      0%, 90%, 100% { opacity: 1; }
+      95%           { opacity: 0; }
+    }
+  </style>
+
+  <g class="dog">
+    <!-- ── EARS ── -->
+    <!-- row 1: ear tips (y=12) -->
+    <rect x="48"  y="12" width="24" height="12" fill="#D4943A"/>
+    <rect x="168" y="12" width="24" height="12" fill="#D4943A"/>
+    <!-- row 2: upper ear (y=24) -->
+    <rect x="36"  y="24" width="48" height="12" fill="#D4943A"/>
+    <rect x="156" y="24" width="48" height="12" fill="#D4943A"/>
+    <!-- row 3: inner ear detail (y=36) -->
+    <rect x="36"  y="36" width="12" height="12" fill="#D4943A"/>
+    <rect x="48"  y="36" width="12" height="12" fill="#6B3A1F"/>
+    <rect x="60"  y="36" width="12" height="12" fill="#FFB3C6"/>
+    <rect x="72"  y="36" width="12" height="12" fill="#D4943A"/>
+    <rect x="156" y="36" width="12" height="12" fill="#D4943A"/>
+    <rect x="168" y="36" width="12" height="12" fill="#FFB3C6"/>
+    <rect x="180" y="36" width="12" height="12" fill="#6B3A1F"/>
+    <rect x="192" y="36" width="12" height="12" fill="#D4943A"/>
+
+    <!-- ── HEAD TOP ── -->
+    <!-- rows 4-5 (y=48,60): cols 2-17 -->
+    <rect x="24" y="48" width="192" height="24" fill="#D4943A"/>
+    <!-- rows 6-7 (y=72,84): cols 1-18 -->
+    <rect x="12" y="72" width="216" height="24" fill="#D4943A"/>
+    <!-- subtle eyebrow hint on row 7 -->
+    <rect x="48"  y="84" width="24" height="6" fill="#B87333" opacity="0.55"/>
+    <rect x="168" y="84" width="24" height="6" fill="#B87333" opacity="0.55"/>
+
+    <!-- ── EYES (row 8, y=96) ── -->
+    <rect x="12"  y="96" width="36"  height="12" fill="#D4943A"/><!-- cols 1-3  -->
+    <rect x="72"  y="96" width="96"  height="12" fill="#D4943A"/><!-- cols 6-13 -->
+    <rect x="192" y="96" width="36"  height="12" fill="#D4943A"/><!-- cols 16-18-->
+    <!-- left eye -->
+    <g class="eye">
+      <rect x="48" y="96" width="24" height="12" fill="#111111"/>
+      <rect x="50" y="98" width="8"  height="5"  fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    <!-- right eye -->
+    <g class="eye">
+      <rect x="168" y="96" width="24" height="12" fill="#111111"/>
+      <rect x="170" y="98" width="8"  height="5"  fill="#FFFFFF" opacity="0.9"/>
+    </g>
+
+    <!-- ── CHEEKS (rows 9-10, y=108-120): cols 1-18 ── -->
+    <rect x="12" y="108" width="216" height="24" fill="#D4943A"/>
+
+    <!-- ── MUZZLE (rows 11-12, y=132-144) ── -->
+    <rect x="12"  y="132" width="24"  height="24" fill="#D4943A"/>
+    <rect x="36"  y="132" width="168" height="24" fill="#FFF8D0"/>
+    <rect x="204" y="132" width="24"  height="24" fill="#D4943A"/>
+
+    <!-- ── NOSE (row 13, y=156) ── -->
+    <rect x="12"  y="156" width="24" height="12" fill="#D4943A"/>
+    <rect x="36"  y="156" width="48" height="12" fill="#FFF8D0"/>
+    <rect x="84"  y="156" width="72" height="12" fill="#111111"/><!-- nose -->
+    <rect x="156" y="156" width="48" height="12" fill="#FFF8D0"/>
+    <rect x="204" y="156" width="24" height="12" fill="#D4943A"/>
+
+    <!-- ── CHIN (row 14, y=168) ── -->
+    <rect x="24"  y="168" width="24"  height="12" fill="#D4943A"/>
+    <rect x="48"  y="168" width="144" height="12" fill="#FFF8D0"/>
+    <rect x="192" y="168" width="24"  height="12" fill="#D4943A"/>
+
+    <!-- ── LOWER FACE ── -->
+    <!-- row 15 (y=180): cols 2-17 -->
+    <rect x="24" y="180" width="192" height="12" fill="#D4943A"/>
+    <!-- row 16 (y=192): cols 3-16 -->
+    <rect x="36" y="192" width="168" height="12" fill="#D4943A"/>
+    <!-- row 17 (y=204): cols 4-15 -->
+    <rect x="48" y="204" width="144" height="12" fill="#D4943A"/>
+  </g>
+</svg>
