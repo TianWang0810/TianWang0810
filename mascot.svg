@@ -11,9 +11,9 @@
   </style>
 
   <!-- Music notes (independent of dog float) -->
-  <text class="note" x="196" y="55"  font-size="15" fill="#8EA8BC" opacity="0.75" style="animation-delay:0s">♩</text>
-  <text class="note" x="200" y="105" font-size="15" fill="#ACA0BA" opacity="0.75" style="animation-delay:0.7s">♪</text>
-  <text class="note" x="196" y="155" font-size="15" fill="#8EA8BC" opacity="0.65" style="animation-delay:1.4s">♩</text>
+  <text class="note" x="196" y="55"  font-size="15" font-family="'Caveat',cursive" fill="#8EA8BC" opacity="0.75" style="animation-delay:0s">♩</text>
+  <text class="note" x="200" y="105" font-size="15" font-family="'Caveat',cursive" fill="#ACA0BA" opacity="0.75" style="animation-delay:0.7s">♪</text>
+  <text class="note" x="196" y="155" font-size="15" font-family="'Caveat',cursive" fill="#8EA8BC" opacity="0.65" style="animation-delay:1.4s">♩</text>
 
   <g class="dog">
     <!-- ── BOW (centered on col 9, x=99) ── -->
