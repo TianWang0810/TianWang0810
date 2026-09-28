@@ -1,39 +1,20 @@
 <div align="center">
 
-<img src="mascot.svg" width="160" alt="pixel dog"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=620&lines=Hi%2C+I'm+Tian+%F0%9F%91%8B;Building+AI+Agents+%26+Distributed+Backends;Open+to+2026+Summer+Internships+%E2%80%94+SWE+%2F+MLE" alt="typing" />
 
-# Hi, I'm Tian
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=D4943A&center=true&vCenter=true&random=false&width=500&lines=Building+AI+Agents+%26+RAG+Systems;Distributed+Backends+that+Scale;Open+to+2026+Summer+Internships" alt="Typing SVG" />
+<img src="assets/focus.svg" width="65%" alt="about" /><img src="mascot.svg" width="33%" alt="bichon" />
 
-MSCS @ Northeastern University, Seattle &nbsp;·&nbsp; Applied AI Researcher @ Spatioform Lab
+<img src="assets/skills.svg" width="49.5%" alt="skills" /><img src="https://github-readme-stats.vercel.app/api?username=TianWang0810&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0D1117&border_radius=8" width="49.5%" alt="stats" />
 
----
+<img src="assets/metrics.svg" width="100%" alt="metrics" />
 
-### Tech Stack
+<div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,ts,go,rust,kotlin&perline=6" />
+[![researchmate](https://github-readme-stats.vercel.app/api/pin/?username=TianWang0810&repo=researchmate&theme=github_dark&hide_border=true&bg_color=0D1117&border_radius=8)](https://github.com/TianWang0810/researchmate)
+
 <br/>
-<img src="https://skillicons.dev/icons?i=spring,flask,fastapi,postgres,redis,docker&perline=6" />
-<br/>
-<img src="https://skillicons.dev/icons?i=aws,gcp,kafka,prometheus&perline=6" />
-
----
-
-### GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=TianWang0810&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="155"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TianWang0810&layout=compact&theme=tokyonight&hide_border=true" height="155"/>
-
----
-
-### Featured
-
-**[researchmate](https://github.com/TianWang0810/researchmate)**&nbsp;·&nbsp;`Python` `LangChain` `pgvector` `Docker`  
-RAG + LangChain ReAct agent for lab experiment tracking — hybrid BM25 + pgvector retrieval with RRF fusion, 6-service Docker Compose stack, local LLM via Ollama.
-
----
 
 📬 wtian0262@gmail.com &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/tianwang874330382)
 
